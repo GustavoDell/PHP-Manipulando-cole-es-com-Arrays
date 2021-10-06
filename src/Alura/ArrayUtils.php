@@ -1,5 +1,7 @@
 <?php declare(strict_types=1); //essa function deixa os tipos estritos (não faz conversão automatica), modo estrito desativa os castings automáticos.
 
+namespace Alura;
+
 class ArrayUtils 
 {
     public static function remover(string $elemento, array &$array): void //&colcando &, o elemento é passado por referencia portanto ele não cria uma copia do que foi passado
@@ -13,7 +15,7 @@ class ArrayUtils
     
         }else {
 
-            echo "Não foi encontrado no array";
+            echo "Elemento não foi encontrado no array";
 
         }
     }
