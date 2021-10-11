@@ -1,6 +1,6 @@
 <?php declare(strict_types=1); //essa function deixa os tipos estritos (não faz conversão automatica), modo estrito desativa os castings automáticos.
 
-namespace Alura;
+namespace Alura;// deve se ter o mesmo nome do namespace na pasta.
 
 class ArrayUtils 
 {
